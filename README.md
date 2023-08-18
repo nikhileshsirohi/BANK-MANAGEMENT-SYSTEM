@@ -1,98 +1,96 @@
-#Banking Management System
+# Banking Management System
 This is a simple console-based banking management system implemented in C++. It allows users to perform various banking operations like creating an account, depositing, withdrawing, checking balances, modifying account details, and also have the password protection.
 
-#Table of Contents
-Description
-Usage
-Functions
-Class account
-Function create_account
-Function show_account
-Function modify
-Function dep
-Function draw
-Function report
-Function retacno
-Function retdeposit
-Function rettype
-Function retpass
-Function write_account
-Function display_sp
-Function modify_account
-Function delete_account
-Function display_all
-Function deposit_withdraw
-Function intro
-Getting Started
-Author
-Description
+### Table of Contents
+1.Description
+2.Usage
+3.Functions
+4.Class account
+5.Function create_account
+6.Function show_account
+7.Function modify
+8.Function dep
+9.Function draw
+10.Function report
+11.Function retacno
+12.Function retdeposit
+13.Function rettype
+14.Function retpass
+15.Function write_account
+16.Function display_sp
+17.Function modify_account
+18.Function delete_account
+19.Function display_all
+20.Function deposit_withdraw
+21.Function intro
+22.Getting Started
+23.Password Protection
+24.Author
+### Description
 This banking management system simulates basic banking operations such as account creation, deposit, withdrawal, account modification, password protection and more. It uses a class account to represent individual accounts and various member functions to perform actions related to these accounts.
 
-Usage
+### Usage
 Compile and run the program using a C++ compiler. The program provides a menu-driven interface for users to select operations they want to perform.
 
-Functions
-Class account
+## Functions
+### Class account
 Function create_account
 This function is used to create a new account. It prompts the user to input details like account number, account holder's name, account type, phone number, initial deposit amount, and password.
 
-Function show_account
+### Function show_account
 Displays the details of an account, including account number, account holder's name, account type, balance amount, and phone number.
 
-Function modify
+### Function modify
 Allows the user to modify account details such as account holder's name, account type, and phone number.
 
-Function dep
+### Function dep
 Used to deposit a specified amount into an account.
 
-Function draw
+### Function draw
 Used to withdraw a specified amount from an account.
 
-Function report
+### Function report
 Displays a summary of account details in a tabular format.
 
-Function retacno
+### Function retacno
 Returns the account number of an account.
 
-Function retdeposit
+### Function retdeposit
 Returns the balance amount of an account.
 
-Function rettype
+### Function rettype
 Returns the account type (C - Current, S - Saving) of an account.
 
-Function retpass
+### Function retpass
 Returns the password of an account.
 
-Function write_account
+### Function write_account
 Writes a new account's details to a binary file.
 
-Function display_sp
+### Function display_sp
 Displays the details of a specific account based on the provided account number. Requires the user to enter a password to access account details.
 
-Function modify_account
+### Function modify_account
 Allows the user to modify account details after providing the correct password.
 
-Function delete_account
+### Function delete_account
 Deletes an account from the binary file after verifying the account's password.
 
-Function display_all
+### Function display_all
 Displays details of all accounts stored in the binary file.
 
-Function deposit_withdraw
+### Function deposit_withdraw
 Enables deposit and withdrawal operations, considering the account type and balance. Requires password verification for withdrawals.
 
-Function intro
+### Function intro
 Displays an introductory message when the program starts.
 
-Getting Started
+### Getting Started
 Compile the code using a C++ compiler.
 Run the compiled executable.
 Follow the on-screen prompts to perform various banking operations.
-Author
-This banking management system was created by Nikhilesh Sirohi, a student at Madan Mohan Malaviya University of Technology, Gorakhpur.
 
-
-Security
+## Security
 Certainly! In the provided C++ code for the banking management system, there are aspects related to password protection to ensure the security of account information. Here's how password protection is implemented in the code:
 
 Password Entry during Account Creation:
@@ -122,6 +120,12 @@ This function returns the stored confirmed password.
 By verifying passwords before granting access to sensitive operations, this approach adds an additional layer of security to the banking management system, ensuring that only authorized users can view or modify account information.
 
 However, it's important to note that this approach is a simplified example for educational purposes. In real-world applications, password handling and security measures should be more robust, involving techniques like secure hashing and encryption to protect sensitive information.
+
+### Author
+This banking management system was created by Nikhilesh Sirohi, a student at Madan Mohan Malaviya University of Technology, Gorakhpur.
+
+
+
 
 
 
