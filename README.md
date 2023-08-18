@@ -2,30 +2,30 @@
 This is a simple console-based banking management system implemented in C++. It allows users to perform various banking operations like creating an account, depositing, withdrawing, checking balances, modifying account details, and also have the password protection.
 
 ### Table of Contents
-1.Description
-2.Usage
-3.Functions
-4.Class account
-5.Function create_account
-6.Function show_account
-7.Function modify
-8.Function dep
-9.Function draw
-10.Function report
-11.Function retacno
-12.Function retdeposit
-13.Function rettype
-14.Function retpass
-15.Function write_account
-16.Function display_sp
-17.Function modify_account
-18.Function delete_account
-19.Function display_all
-20.Function deposit_withdraw
-21.Function intro
-22.Getting Started
-23.Password Protection
-24.Author
+1.Description  
+2.Usage  
+3.Functions  
+4.Class account  
+5.Function create_account  
+6.Function show_account  
+7.Function modify  
+8.Function dep  
+9.Function draw  
+10.Function report  
+11.Function retacno  
+12.Function retdeposit  
+13.Function rettype  
+14.Function retpass  
+15.Function write_account  
+16.Function display_sp  
+17.Function modify_account  
+18.Function delete_account  
+19.Function display_all  
+20.Function deposit_withdraw  
+21.Function intro  
+22.Getting Started  
+23.Password Protection  
+24.Author  
 ### Description
 This banking management system simulates basic banking operations such as account creation, deposit, withdrawal, account modification, password protection and more. It uses a class account to represent individual accounts and various member functions to perform actions related to these accounts.
 
