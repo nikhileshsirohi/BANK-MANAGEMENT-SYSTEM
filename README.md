@@ -1,7 +1,7 @@
-Banking Management System
+#Banking Management System
 This is a simple console-based banking management system implemented in C++. It allows users to perform various banking operations like creating an account, depositing, withdrawing, checking balances, modifying account details, and also have the password protection.
 
-Table of Contents
+#Table of Contents
 Description
 Usage
 Functions
