@@ -74,10 +74,12 @@ Displays the details of a specific account based on the provided account number.
 Allows the user to modify account details after providing the correct password.
 
 ### Function delete_account
-Deletes an account from the binary file after verifying the account's password.
+Deletes an account from the binary file after verifying the admin's password.
+Only Admin have access to delete an account
 
 ### Function display_all
-Displays details of all accounts stored in the binary file.
+Displays details of all accounts stored in the binary file after verifying the admin's Password.
+Only admin can see all account holder list.
 
 ### Function deposit_withdraw
 Enables deposit and withdrawal operations, considering the account type and balance. Requires password verification for withdrawals.
@@ -91,6 +93,9 @@ Run the compiled executable.
 Follow the on-screen prompts to perform various banking operations.
 
 ## Security
+By Default Admin Password: 12345678 to login
+Only Admin can close and display all account holder list
+
 Certainly! In the provided C++ code for the banking management system, there are aspects related to password protection to ensure the security of account information. Here's how password protection is implemented in the code:
 
 Password Entry during Account Creation:
